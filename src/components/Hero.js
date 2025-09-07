@@ -67,12 +67,12 @@ const Hero = () => {
         className="flex flex-col items-center justify-center min-h-screen text-center"
       >
         <img
-          className="w-40 h-40 rounded-full mb-6 border-4 border-x-red-600 border-y-black shadow-lg animate-fade-in-up"
+          className="w-40 h-40 rounded-full mb-6 border-4  border-y-black shadow-lg animate-fade-in-up"
           src={Profile}
           alt="xL's Profile Picture"
         />
         <h1 className="text-5xl sm:text-7xl font-extrabold mb-4 animate-fade-in-up">
-          Hi, I'm <span className="text-red-500">xL</span>
+          Hi, I'm <span className="text-red-600">xL</span>
         </h1>
         <Typewriter
           words={[
