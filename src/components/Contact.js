@@ -263,7 +263,7 @@ const Contact = () => {
 
           <div className="flex items-center justify-center gap-6 text-red-500 mt-8">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/ThomaxMerlin"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-400 transition-colors transform hover:scale-110"
@@ -271,7 +271,7 @@ const Contact = () => {
               <IconGithub />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/min-thu-kywal-49324b244/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-400 transition-colors transform hover:scale-110"
@@ -279,7 +279,7 @@ const Contact = () => {
               <IconLinkedin />
             </a>
             <a
-              href="https://facebook.com/yourusername"
+              href="https://www.facebook.com/share/1Cc61ShaLQ/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-red-400 transition-colors transform hover:scale-110"
