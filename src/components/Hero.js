@@ -51,9 +51,9 @@ const Hero = () => {
     }, [subIndex, index, isDeleting, words]);
 
     return (
-      <span className="text-xl md:text-2xl text-red-400 font-semibold mt-4">
+      <span className="text-xl md:text-2xl text-red-500 font-semibold mt-4">
         {words[index]?.substring(0, subIndex)}
-        <span className="inline-block w-1 h-6 md:h-8 bg-red-400 align-text-bottom ml-1"></span>
+        <span className="inline-block w-1 h-6 md:h-8 bg-red-500 align-text-bottom ml-1"></span>
       </span>
     );
   };
@@ -67,7 +67,7 @@ const Hero = () => {
         className="flex flex-col items-center justify-center min-h-screen text-center"
       >
         <img
-          className="w-40 h-40 rounded-full mb-6 border-4  border-y-black shadow-lg animate-fade-in-up"
+          className="w-40 h-40 rounded-full mb-6 border-4 shadow-lg animate-fade-in-up"
           src={Profile}
           alt="xL's Profile Picture"
         />
