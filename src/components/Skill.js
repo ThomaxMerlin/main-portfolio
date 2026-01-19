@@ -20,10 +20,15 @@ const Skill = () => {
             "JavaScript",
             "Node.js",
             "Python",
+            "Machine Learning",
+            "Deep Learning",
+            "C#",
+            "AI",
             "Tailwind CSS",
             "Next.js",
             "SQL",
             "Git",
+            
           ].map((skill, index) => (
             <div
               key={index}
